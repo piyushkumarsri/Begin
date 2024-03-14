@@ -8,8 +8,6 @@ public class Alphabetic {
 				      ? ch + " is an albhabet"
 				      : ch + "  is not an alphabet";
 		System.out.println(output);
-		
-
 	}
 
 }
