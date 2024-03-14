@@ -6,7 +6,7 @@ public class Alphabetic {
 		char ch='$';
 		String output=(ch>='a'&&ch<='z' ||ch>='A'&&ch<='Z')
 				      ? ch + " is an albhabet"
-				      : ch + " is not an alphabet";
+				      : ch + "  is not an alphabet";
 		System.out.println(output);
 		
 
