@@ -1,0 +1,89 @@
+ 500  git init
+  501  ls
+  502  ls -a
+  503  git remote -v
+  504  git add remote origin master
+  505  git remote origin master
+  506  git remote add origin master
+  507  git remote -v
+  508  git add Rehana.txt
+  509  git status
+  510  git commit -m "commit1"
+  511  git push origin master
+  512  git remode add origin https://github.com/piyushkumarsri/Begin
+  513  git status
+  514  git branch -r
+  515  ls
+  516  git fetch --prune
+  517  ls
+  518  cd ..
+  519  ls
+  520  clear
+  521  ls
+  522  cd Working/
+  523  ls
+  524  git status
+  525  git branch -r
+  526  git fetch --prune
+  527  clear
+  528  cd ..
+  529  clear
+  530  ls
+  531  rm -rf Working/
+  532  mkdir working
+  533  git clone https://github.com/piyushkumarsri/Begin.git
+  534  ls
+  535  cd Begin/
+  536  ls
+  537  clear
+  538  cd ..
+  539  rm -rf Begin/
+  540  cd working/
+  541  git clone https://github.com/piyushkumarsri/Begin.git
+  542  clear
+  543  ls
+  544  cd Begin/
+  545  clear
+  546  ls
+  547  git status
+  548  git add .
+  549  git status
+  550  git commit -am "new file rehana added"
+  551  git push
+  552  git checkout -b "feature/new-branch"
+  553  clear
+  554  git status
+  555  ls
+  556  git push
+  557  git push --set-upstream origin feature/new-branch
+  558  git status
+  559  git checkout master
+  560  clear
+  561  ls
+  562  nano Rehana.txt
+  563  git status
+  564  git diff
+  565  clear
+  566  git status
+  567  got commit -am "rehana file updated"
+  568  git commit -am "rehana file updated"
+  569  git push
+  570  clear
+  571  git status
+  572  git branch
+  573  git checkout feature/new-branch
+  574  git checkout feature/new-branch
+  575  clear
+  576  git fetch --prune
+  577  git pulll
+  578  git pull
+  579  git branch -r
+  580  git checkout feature/new-branch
+  581  clear
+  582  git pull
+  583  clear
+  584  git merge master
+  585  code .
+  586  git status
+  587  git commit -am "merge-conflict-resolved"
+  588  git push
